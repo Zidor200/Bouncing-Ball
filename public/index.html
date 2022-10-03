@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="dist/index.js" type="module"></script>
+
+  <title>Bouncing Ball</title>
+</head>
+<body>
+  <ul>
+
+      <li><input type="radio"
+          class="BallType" name="g1"  value="football" id="0"  >football</li>
+          <li><input type="radio"
+            class="BallType" name="g1" value="basketball" id="1">basketball</li>
+
+            <li><input type="radio"
+              class="BallType" name="g1" value="baseball" id="2">Baseball</li>
+
+          <li><input type="radio"
+          class="BallType" name="g1" value="tennis"id="3" >Tennis</li>
+
+  </ul>
+  <div class="main">
+  <div class="ball football"></div>
+  <canvas (mousemove)="start()" class="canvas"></canvas>
+  </div>
+
+</body>
+<footer><p>Kick The ball by clicking around it</p>
+
+  <p id="screen-log" style="color: black; display: none;"></p></footer>
+</html>

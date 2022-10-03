@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #fefefe;
+  min-width: 540px;
+  min-height: 320px;
+}
+
+.canvas {
+  height: 80vh;
+  width: 50vw;
+  display: block;
+  margin: 5em auto;
+  border: 1px solid #666;
+}
+
+.ball {
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.main .football {
+  background-image: url("../resources/football.jpg");
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+  background-position: 50% 100%;
+}
+.main .basketball {
+  background-image: url("../resources/basketball.png");
+  background-repeat: no-repeat;
+  background-size: 130% 100%;
+  background-position: center;
+}
+.main .baseball {
+  background-image: url("../resources/baseball.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+.main .tennis {
+  background-image: url("../resources/tennis.jpg");
+  background-repeat: no-repeat;
+  background-size: 120% 110%;
+  background-position: center;
+}
+
+.shadow {
+  filter: drop-shadow(3px 30px 25px #000);
+}
+
+ul {
+  margin: 1em 2em;
+}
+ul p {
+  display: none;
+}
+ul li {
+  list-style: none;
+  padding: 0.5em 1em;
+}
+ul li input {
+  margin: 1em;
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */
